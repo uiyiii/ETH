@@ -1,0 +1,43 @@
+time=2024-12-29T15:26:46.968+09:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2024-12-29T15:28:32.648+09:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2024-12-29T15:34:57.827+09:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T15:34:57.828+09:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2024-12-29T15:40:02.967+09:00 level=INFO msg=List api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T15:41:46.192+09:00 level=INFO msg=List api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T15:49:29.745+09:00 level=INFO msg=List api=signer type=response data=[0x78A0FD98968895120aA059AE16968113ca8b1590]
+time=2024-12-29T15:49:31.821+09:00 level=INFO msg=List api=signer type=response data=[0x78A0FD98968895120aA059AE16968113ca8b1590]
+time=2024-12-29T15:50:59.467+09:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2024-12-29T15:53:59.144+09:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2024-12-29T15:55:40.331+09:00 level=INFO msg=List api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T15:55:52.803+09:00 level=INFO msg=List api=signer type=response data=[0x78A0FD98968895120aA059AE16968113ca8b1590]
+time=2024-12-29T15:58:24.635+09:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T15:58:24.635+09:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2024-12-29T15:59:45.812+09:00 level=INFO msg=List api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T15:59:45.812+09:00 level=INFO msg=List api=signer type=response data=[0x78A0FD98968895120aA059AE16968113ca8b1590]
+time=2024-12-29T16:31:27.311+09:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2024-12-29T16:34:50.602+09:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T16:34:50.602+09:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2024-12-29T16:35:05.671+09:00 level=INFO msg=List api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T16:35:10.659+09:00 level=INFO msg=List api=signer type=response data="[0x123463a4B065722E99115D6c222f267d9cABb524 0x78A0FD98968895120aA059AE16968113ca8b1590]"
+time=2024-12-29T16:36:15.295+09:00 level=INFO msg=SignTransaction api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}" tx="{\"from\":\"0x123463a4B065722E99115D6c222f267d9cABb524\",\"to\":\"0x123C0ffeE567BeeF890DECadE123FaDe456BeD78\",\"gas\":\"0x5208\",\"gasPrice\":null,\"maxFeePerGas\":\"0xf424e\",\"maxPriorityFeePerGas\":\"0xf4240\",\"value\":\"0xde0b6b3a7640000\",\"nonce\":\"0x0\",\"input\":\"0x\",\"accessList\":[],\"chainId\":\"0x7e7e\"}" methodSelector=<nil>
+time=2024-12-29T16:36:15.299+09:00 level=INFO msg=SignTransaction api=signer type=response data=<nil> error="requested chainid 32382 does not match the configuration of the signer"
+time=2024-12-29T16:37:30.528+09:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2024-12-29T16:38:21.821+09:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2024-12-29T16:38:52.660+09:00 level=INFO msg=Configured api=signer "audit log"=audit.log
+time=2024-12-29T16:39:02.016+09:00 level=INFO msg=SignTransaction api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}" tx="{\"from\":\"0x123463a4B065722E99115D6c222f267d9cABb524\",\"to\":\"0x123C0ffeE567BeeF890DECadE123FaDe456BeD78\",\"gas\":\"0x5208\",\"gasPrice\":null,\"maxFeePerGas\":\"0xf424e\",\"maxPriorityFeePerGas\":\"0xf4240\",\"value\":\"0xde0b6b3a7640000\",\"nonce\":\"0x0\",\"input\":\"0x\",\"accessList\":[],\"chainId\":\"0x7e7e\"}" methodSelector=<nil>
+time=2024-12-29T16:39:17.985+09:00 level=INFO msg=SignTransaction api=signer type=response data=<nil> error="could not decrypt key with given password"
+time=2024-12-29T16:39:23.956+09:00 level=INFO msg=SignTransaction api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}" tx="{\"from\":\"0x123463a4B065722E99115D6c222f267d9cABb524\",\"to\":\"0x123C0ffeE567BeeF890DECadE123FaDe456BeD78\",\"gas\":\"0x5208\",\"gasPrice\":null,\"maxFeePerGas\":\"0xf424e\",\"maxPriorityFeePerGas\":\"0xf4240\",\"value\":\"0xde0b6b3a7640000\",\"nonce\":\"0x0\",\"input\":\"0x\",\"accessList\":[],\"chainId\":\"0x7e7e\"}" methodSelector=<nil>
+time=2024-12-29T16:39:32.006+09:00 level=INFO msg=SignTransaction api=signer type=response data=02f872827e7e80830f4240830f424e82520894123c0ffee567beef890decade123fade456bed78880de0b6b3a764000080c001a0ab51a07c8c2920aa25df9bcf7f47ba4ee2015429bd370da7226d1b6f40f02b68a049f8633eeda582fcb7f24a8f52c404f9d737de405541cf79e774017c1dcdac72 error=<nil>
+time=2024-12-29T17:18:46.325+09:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T17:18:46.326+09:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2024-12-29T17:19:25.778+09:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T17:19:25.778+09:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2024-12-29T17:19:52.269+09:00 level=INFO msg=List api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-29T17:19:55.687+09:00 level=INFO msg=List api=signer type=response data="[0x123463a4B065722E99115D6c222f267d9cABb524 0x78A0FD98968895120aA059AE16968113ca8b1590]"
+time=2024-12-30T16:24:34.116+09:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-30T16:24:34.117+09:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2024-12-30T16:35:15.365+09:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-30T16:35:15.367+09:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2024-12-30T16:37:24.682+09:00 level=INFO msg=Version api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"
+time=2024-12-30T16:37:24.682+09:00 level=INFO msg=Version api=signer type=response data=6.1.0 error=<nil>
+time=2024-12-30T17:51:19.182+09:00 level=INFO msg=List api=signer type=request metadata="{\"remote\":\"NA\",\"local\":\"NA\",\"scheme\":\"ipc\",\"User-Agent\":\"\",\"Origin\":\"\"}"

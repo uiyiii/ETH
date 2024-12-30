@@ -1,0 +1,315 @@
+INFO [12-25|13:08:54.328] Maximum peer count                       ETH=50 total=50
+INFO [12-25|13:08:54.334] Set global gas cap                       cap=50,000,000
+INFO [12-25|13:08:54.334] Initializing the KZG library             backend=gokzg
+INFO [12-25|13:08:54.358] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-25|13:08:54.359] Using pebble as the backing database
+INFO [12-25|13:08:54.360] Allocated cache and file handles         database=/Users/nakanoyui/ganache/node1/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-25|13:08:54.411] Opened ancient database                  database=/Users/nakanoyui/ganache/node1/geth/chaindata/ancient/chain readonly=false
+INFO [12-25|13:08:54.412] State scheme set to already existing     scheme=path
+INFO [12-25|13:08:54.413] Initialising Ethereum protocol           network=1337 dbversion=8
+INFO [12-25|13:08:54.419] Opened ancient database                  database=/Users/nakanoyui/ganache/node1/geth/chaindata/ancient/state readonly=false
+INFO [12-25|13:08:54.419] Initialized path database                cache=154.00MiB buffer=256.00MiB history=90000
+INFO [12-25|13:08:54.419] 
+INFO [12-25|13:08:54.419] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-25|13:08:54.420] Chain ID:  1337 (unknown)
+INFO [12-25|13:08:54.420] Consensus: unknown
+INFO [12-25|13:08:54.420] 
+INFO [12-25|13:08:54.420] Pre-Merge hard forks (block based):
+INFO [12-25|13:08:54.420]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [12-25|13:08:54.420]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [12-25|13:08:54.420]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-25|13:08:54.420]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-25|13:08:54.420]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [12-25|13:08:54.420]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [12-25|13:08:54.420]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [12-25|13:08:54.420]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [12-25|13:08:54.420]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [12-25|13:08:54.420]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [12-25|13:08:54.420]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [12-25|13:08:54.420] 
+INFO [12-25|13:08:54.420] Merge configured:
+INFO [12-25|13:08:54.420]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [12-25|13:08:54.420]  - Network known to be merged
+INFO [12-25|13:08:54.420]  - Total terminal difficulty:  0
+INFO [12-25|13:08:54.420] 
+INFO [12-25|13:08:54.420] Post-Merge hard forks (timestamp based):
+INFO [12-25|13:08:54.420] 
+INFO [12-25|13:08:54.420] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-25|13:08:54.420] 
+INFO [12-25|13:08:54.421] Loaded most recent local block           number=0 hash=d1f13d..1b805d td=131,072 age=55y9mo1w
+INFO [12-25|13:08:54.422] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [12-25|13:08:54.423] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-25|13:08:54.433] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-25|13:08:54.435] Unclean shutdown detected                booted=2024-12-15T23:46:08+0900 age=1w2d13h
+WARN [12-25|13:08:54.435] Unclean shutdown detected                booted=2024-12-15T23:53:51+0900 age=1w2d13h
+WARN [12-25|13:08:54.435] Unclean shutdown detected                booted=2024-12-15T23:54:54+0900 age=1w2d13h
+WARN [12-25|13:08:54.435] Unclean shutdown detected                booted=2024-12-15T23:56:20+0900 age=1w2d13h
+WARN [12-25|13:08:54.436] Engine API enabled                       protocol=eth
+INFO [12-25|13:08:54.436] Starting peer-to-peer node               instance=Geth/v1.14.12-stable/darwin-arm64/go1.23.3
+INFO [12-25|13:08:54.538] New local node record                    seq=1,734,271,606,954 id=b4da0f69be1550a9 ip=127.0.0.1 udp=0 tcp=30303
+INFO [12-25|13:08:54.538] Started P2P networking                   self="enode://4f8343350782cfc1e792f9b9987c620950cd32bb85f713b3f109888a79b79280979802fc645a6e3eb6ad49639d0078148ceac0cf3d236a834d93cf7640b656bd@127.0.0.1:30303?discport=0"
+ERROR[12-25|13:08:54.539] Unavailable modules in HTTP API list     unavailable=[personal] available="[admin debug web3 eth txpool miner net]"
+INFO [12-25|13:08:54.540] Loaded JWT secret file                   path=/Users/nakanoyui/ganache/node1/geth/jwtsecret crc32=0x5fb9f568
+INFO [12-25|13:08:54.540] HTTP server started                      endpoint=127.0.0.1:8575 auth=false prefix= cors= vhosts=localhost
+INFO [12-25|13:08:54.540] WebSocket enabled                        url=ws://127.0.0.1:8576
+INFO [12-25|13:08:54.542] WebSocket enabled                        url=ws://127.0.0.1:8577
+INFO [12-25|13:08:54.542] HTTP server started                      endpoint=127.0.0.1:8577 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [12-25|13:08:57.309] NAT mapped port                          proto=TCP extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:09:29.438] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:09:30.246] HTTP server stopped                      endpoint=127.0.0.1:8575
+INFO [12-25|13:09:30.246] HTTP server stopped                      endpoint=127.0.0.1:8576
+INFO [12-25|13:09:30.246] HTTP server stopped                      endpoint=127.0.0.1:8577
+INFO [12-25|13:09:30.247] Ethereum protocol stopped
+INFO [12-25|13:09:30.247] Transaction pool stopped
+INFO [12-25|13:09:30.252] Persisting dirty state to disk           root=8028c2..ff6d3e layers=0
+INFO [12-25|13:09:30.253] Persisted dirty state to disk            size=69.00B elapsed="137.583µs"
+INFO [12-25|13:09:30.257] Blockchain stopped
+INFO [12-25|13:11:09.125] Maximum peer count                       ETH=50 total=50
+INFO [12-25|13:11:09.128] Set global gas cap                       cap=50,000,000
+INFO [12-25|13:11:09.128] Initializing the KZG library             backend=gokzg
+INFO [12-25|13:11:09.150] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-25|13:11:09.150] Using pebble as the backing database
+INFO [12-25|13:11:09.150] Allocated cache and file handles         database=/Users/nakanoyui/ganache/node1/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-25|13:11:09.188] Opened ancient database                  database=/Users/nakanoyui/ganache/node1/geth/chaindata/ancient/chain readonly=false
+INFO [12-25|13:11:09.188] State scheme set to already existing     scheme=path
+INFO [12-25|13:11:09.188] Initialising Ethereum protocol           network=1337 dbversion=8
+INFO [12-25|13:11:09.193] Opened ancient database                  database=/Users/nakanoyui/ganache/node1/geth/chaindata/ancient/state readonly=false
+INFO [12-25|13:11:09.193] Initialized path database                cache=154.00MiB buffer=256.00MiB history=90000
+INFO [12-25|13:11:09.193] 
+INFO [12-25|13:11:09.193] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-25|13:11:09.193] Chain ID:  1337 (unknown)
+INFO [12-25|13:11:09.193] Consensus: unknown
+INFO [12-25|13:11:09.193] 
+INFO [12-25|13:11:09.193] Pre-Merge hard forks (block based):
+INFO [12-25|13:11:09.193]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [12-25|13:11:09.193]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [12-25|13:11:09.193]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-25|13:11:09.193]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-25|13:11:09.193]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [12-25|13:11:09.193]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [12-25|13:11:09.193]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [12-25|13:11:09.193]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [12-25|13:11:09.193]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [12-25|13:11:09.193]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [12-25|13:11:09.193]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [12-25|13:11:09.193] 
+INFO [12-25|13:11:09.193] Merge configured:
+INFO [12-25|13:11:09.193]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [12-25|13:11:09.193]  - Network known to be merged
+INFO [12-25|13:11:09.193]  - Total terminal difficulty:  0
+INFO [12-25|13:11:09.193] 
+INFO [12-25|13:11:09.193] Post-Merge hard forks (timestamp based):
+INFO [12-25|13:11:09.193] 
+INFO [12-25|13:11:09.193] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-25|13:11:09.193] 
+INFO [12-25|13:11:09.193] Loaded most recent local block           number=0 hash=d1f13d..1b805d td=131,072 age=55y9mo1w
+INFO [12-25|13:11:09.193] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [12-25|13:11:09.193] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-25|13:11:09.202] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-25|13:11:09.203] Unclean shutdown detected                booted=2024-12-15T23:46:08+0900 age=1w2d13h
+WARN [12-25|13:11:09.203] Unclean shutdown detected                booted=2024-12-15T23:53:51+0900 age=1w2d13h
+WARN [12-25|13:11:09.203] Unclean shutdown detected                booted=2024-12-15T23:54:54+0900 age=1w2d13h
+WARN [12-25|13:11:09.203] Unclean shutdown detected                booted=2024-12-15T23:56:20+0900 age=1w2d13h
+WARN [12-25|13:11:09.203] Engine API enabled                       protocol=eth
+INFO [12-25|13:11:09.203] Starting peer-to-peer node               instance=Geth/v1.14.12-stable/darwin-arm64/go1.23.3
+ERROR[12-25|13:11:09.226] Unavailable modules in HTTP API list     unavailable=[personal] available="[admin debug web3 eth txpool miner net]"
+INFO [12-25|13:11:09.226] Loaded JWT secret file                   path=/Users/nakanoyui/ganache/node1/geth/jwtsecret crc32=0x5fb9f568
+INFO [12-25|13:11:09.227] HTTP server started                      endpoint=127.0.0.1:8575 auth=false prefix= cors= vhosts=localhost
+INFO [12-25|13:11:09.227] WebSocket enabled                        url=ws://127.0.0.1:8576
+INFO [12-25|13:11:09.227] New local node record                    seq=1,734,271,606,955 id=b4da0f69be1550a9 ip=127.0.0.1 udp=0 tcp=30303
+INFO [12-25|13:11:09.227] Started P2P networking                   self="enode://4f8343350782cfc1e792f9b9987c620950cd32bb85f713b3f109888a79b79280979802fc645a6e3eb6ad49639d0078148ceac0cf3d236a834d93cf7640b656bd@127.0.0.1:30303?discport=0"
+INFO [12-25|13:11:09.228] WebSocket enabled                        url=ws://127.0.0.1:8577
+INFO [12-25|13:11:09.228] HTTP server started                      endpoint=127.0.0.1:8577 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [12-25|13:11:12.001] NAT mapped port                          proto=TCP extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:11:44.205] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:13:29.995] Maximum peer count                       ETH=50 total=50
+Fatal: Failed to create the protocol stack: datadir already used by another process
+INFO [12-25|13:14:51.254] Maximum peer count                       ETH=50 total=50
+INFO [12-25|13:14:51.261] Set global gas cap                       cap=50,000,000
+INFO [12-25|13:14:51.261] Initializing the KZG library             backend=gokzg
+INFO [12-25|13:14:51.284] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-25|13:14:51.284] Using pebble as the backing database
+INFO [12-25|13:14:51.284] Allocated cache and file handles         database=/Users/nakanoyui/ganache/node2/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-25|13:14:51.322] Opened ancient database                  database=/Users/nakanoyui/ganache/node2/geth/chaindata/ancient/chain readonly=false
+INFO [12-25|13:14:51.322] State scheme set to already existing     scheme=path
+INFO [12-25|13:14:51.323] Initialising Ethereum protocol           network=1337 dbversion=8
+INFO [12-25|13:14:51.328] Opened ancient database                  database=/Users/nakanoyui/ganache/node2/geth/chaindata/ancient/state readonly=false
+INFO [12-25|13:14:51.328] Initialized path database                cache=154.00MiB buffer=256.00MiB history=90000
+INFO [12-25|13:14:51.328] 
+INFO [12-25|13:14:51.328] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-25|13:14:51.328] Chain ID:  1337 (unknown)
+INFO [12-25|13:14:51.328] Consensus: unknown
+INFO [12-25|13:14:51.328] 
+INFO [12-25|13:14:51.328] Pre-Merge hard forks (block based):
+INFO [12-25|13:14:51.328]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [12-25|13:14:51.328]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [12-25|13:14:51.328]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-25|13:14:51.328]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-25|13:14:51.328]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [12-25|13:14:51.328]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [12-25|13:14:51.328]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [12-25|13:14:51.328]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [12-25|13:14:51.328]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [12-25|13:14:51.328]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [12-25|13:14:51.328]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [12-25|13:14:51.328] 
+INFO [12-25|13:14:51.328] Merge configured:
+INFO [12-25|13:14:51.328]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [12-25|13:14:51.328]  - Network known to be merged
+INFO [12-25|13:14:51.328]  - Total terminal difficulty:  0
+INFO [12-25|13:14:51.328] 
+INFO [12-25|13:14:51.328] Post-Merge hard forks (timestamp based):
+INFO [12-25|13:14:51.328] 
+INFO [12-25|13:14:51.328] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-25|13:14:51.328] 
+INFO [12-25|13:14:51.328] Loaded most recent local block           number=0 hash=d1f13d..1b805d td=131,072 age=55y9mo1w
+INFO [12-25|13:14:51.329] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [12-25|13:14:51.329] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-25|13:14:51.336] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:22:10+0900 age=1w2d13h
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:23:57+0900 age=1w2d13h
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:26:56+0900 age=1w2d13h
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:27:49+0900 age=1w2d13h
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:30:24+0900 age=1w2d13h
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:46:41+0900 age=1w2d13h
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:49:50+0900 age=1w2d13h
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:50:54+0900 age=1w2d13h
+WARN [12-25|13:14:51.336] Unclean shutdown detected                booted=2024-12-15T23:52:20+0900 age=1w2d13h
+WARN [12-25|13:14:51.337] Engine API enabled                       protocol=eth
+INFO [12-25|13:14:51.337] Starting peer-to-peer node               instance=Geth/v1.14.12-stable/darwin-arm64/go1.23.3
+ERROR[12-25|13:14:51.472] Unavailable modules in HTTP API list     unavailable=[personal] available="[admin debug web3 eth txpool miner net]"
+INFO [12-25|13:14:51.472] New local node record                    seq=1,734,271,686,015 id=0476fdd277086e7a ip=127.0.0.1 udp=0 tcp=30304
+INFO [12-25|13:14:51.472] Started P2P networking                   self="enode://b4b719fc6fa62536ee98ee60a224049954b6c427a37abfc0b752947e6d0abff0b5ed541aba7062960a2e7ce6cc9ec2d0d77c6614a781826f71539bef75c600c4@127.0.0.1:30304?discport=0"
+INFO [12-25|13:14:51.472] Loaded JWT secret file                   path=/Users/nakanoyui/ganache/node2/geth/jwtsecret crc32=0xcbcf9930
+INFO [12-25|13:14:51.472] HTTP server started                      endpoint=127.0.0.1:8546 auth=false prefix= cors= vhosts=localhost
+INFO [12-25|13:14:51.472] WebSocket enabled                        url=ws://127.0.0.1:8547
+INFO [12-25|13:14:51.474] WebSocket enabled                        url=ws://127.0.0.1:8548
+INFO [12-25|13:14:51.474] HTTP server started                      endpoint=127.0.0.1:8548 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [12-25|13:14:54.243] NAT mapped port                          proto=TCP extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:15:26.338] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [12-25|13:16:44.248] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:19:12.374] NAT mapped port                          proto=TCP extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:20:26.383] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [12-25|13:21:24.922] Served eth_sendTransaction               reqid=9 duration="362.75µs" err="unknown account"
+WARN [12-25|13:21:44.288] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:22:54.618] NAT mapped port                          proto=TCP extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+INFO [12-25|13:23:54.138] Old wallet dropped                       url=keystore:///Users/nakanoyui/gan..
+INFO [12-25|13:23:54.138] Old wallet dropped                       url=keystore:///Users/nakanoyui/gan..
+INFO [12-25|13:25:17.776] HTTP server stopped                      endpoint=127.0.0.1:8575
+INFO [12-25|13:25:17.776] HTTP server stopped                      endpoint=127.0.0.1:8576
+INFO [12-25|13:25:17.776] HTTP server stopped                      endpoint=127.0.0.1:8577
+INFO [12-25|13:25:17.776] Ethereum protocol stopped
+INFO [12-25|13:25:17.776] Transaction pool stopped
+INFO [12-25|13:25:17.780] Persisting dirty state to disk           root=8028c2..ff6d3e layers=0
+INFO [12-25|13:25:17.782] Persisted dirty state to disk            size=69.00B elapsed=1.222ms
+INFO [12-25|13:25:17.786] Blockchain stopped
+WARN [12-25|13:25:26.432] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+flag provided but not defined: -miner.threads
+INFO [12-25|13:26:47.992] Maximum peer count                       ETH=50 total=50
+WARN [12-25|13:26:47.999] The flag --mine is deprecated and will be removed
+INFO [12-25|13:26:47.999] Set global gas cap                       cap=50,000,000
+INFO [12-25|13:26:47.999] Initializing the KZG library             backend=gokzg
+INFO [12-25|13:26:48.022] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-25|13:26:48.022] Using pebble as the backing database
+INFO [12-25|13:26:48.022] Allocated cache and file handles         database=/Users/nakanoyui/ganache/node1/geth/chaindata cache=512.00MiB handles=5120
+INFO [12-25|13:26:48.067] Opened ancient database                  database=/Users/nakanoyui/ganache/node1/geth/chaindata/ancient/chain readonly=false
+INFO [12-25|13:26:48.067] State scheme set to already existing     scheme=path
+INFO [12-25|13:26:48.067] Initialising Ethereum protocol           network=1337 dbversion=8
+INFO [12-25|13:26:48.072] Opened ancient database                  database=/Users/nakanoyui/ganache/node1/geth/chaindata/ancient/state readonly=false
+INFO [12-25|13:26:48.072] Initialized path database                cache=154.00MiB buffer=256.00MiB history=90000
+INFO [12-25|13:26:48.072] 
+INFO [12-25|13:26:48.072] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-25|13:26:48.072] Chain ID:  1337 (unknown)
+INFO [12-25|13:26:48.072] Consensus: unknown
+INFO [12-25|13:26:48.072] 
+INFO [12-25|13:26:48.072] Pre-Merge hard forks (block based):
+INFO [12-25|13:26:48.072]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+INFO [12-25|13:26:48.072]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+INFO [12-25|13:26:48.072]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-25|13:26:48.072]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+INFO [12-25|13:26:48.072]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+INFO [12-25|13:26:48.072]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+INFO [12-25|13:26:48.072]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+INFO [12-25|13:26:48.072]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+INFO [12-25|13:26:48.072]  - Muir Glacier:                #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/muir-glacier.md)
+INFO [12-25|13:26:48.072]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+INFO [12-25|13:26:48.072]  - London:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+INFO [12-25|13:26:48.072] 
+INFO [12-25|13:26:48.072] Merge configured:
+INFO [12-25|13:26:48.072]  - Hard-fork specification:    https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+INFO [12-25|13:26:48.072]  - Network known to be merged
+INFO [12-25|13:26:48.072]  - Total terminal difficulty:  0
+INFO [12-25|13:26:48.072] 
+INFO [12-25|13:26:48.072] Post-Merge hard forks (timestamp based):
+INFO [12-25|13:26:48.072] 
+INFO [12-25|13:26:48.072] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+INFO [12-25|13:26:48.072] 
+INFO [12-25|13:26:48.072] Loaded most recent local block           number=0 hash=d1f13d..1b805d td=131,072 age=55y9mo1w
+INFO [12-25|13:26:48.073] Initialized transaction indexer          range="last 2350000 blocks"
+INFO [12-25|13:26:48.073] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-25|13:26:48.083] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-25|13:26:48.084] Unclean shutdown detected                booted=2024-12-15T23:46:08+0900 age=1w2d13h
+WARN [12-25|13:26:48.084] Unclean shutdown detected                booted=2024-12-15T23:53:51+0900 age=1w2d13h
+WARN [12-25|13:26:48.084] Unclean shutdown detected                booted=2024-12-15T23:54:54+0900 age=1w2d13h
+WARN [12-25|13:26:48.084] Unclean shutdown detected                booted=2024-12-15T23:56:20+0900 age=1w2d13h
+WARN [12-25|13:26:48.084] Engine API enabled                       protocol=eth
+INFO [12-25|13:26:48.084] Starting peer-to-peer node               instance=Geth/v1.14.12-stable/darwin-arm64/go1.23.3
+ERROR[12-25|13:26:48.108] Unavailable modules in HTTP API list     unavailable=[personal] available="[admin debug web3 eth txpool miner net]"
+INFO [12-25|13:26:48.108] Loaded JWT secret file                   path=/Users/nakanoyui/ganache/node1/geth/jwtsecret crc32=0x5fb9f568
+INFO [12-25|13:26:48.108] HTTP server started                      endpoint=127.0.0.1:8575 auth=false prefix= cors= vhosts=localhost
+INFO [12-25|13:26:48.108] WebSocket enabled                        url=ws://127.0.0.1:8576
+INFO [12-25|13:26:48.108] New local node record                    seq=1,734,271,606,956 id=b4da0f69be1550a9 ip=127.0.0.1 udp=0 tcp=30303
+INFO [12-25|13:26:48.108] Started P2P networking                   self="enode://4f8343350782cfc1e792f9b9987c620950cd32bb85f713b3f109888a79b79280979802fc645a6e3eb6ad49639d0078148ceac0cf3d236a834d93cf7640b656bd@127.0.0.1:30303?discport=0"
+INFO [12-25|13:26:48.109] WebSocket enabled                        url=ws://127.0.0.1:8577
+INFO [12-25|13:26:48.109] HTTP server started                      endpoint=127.0.0.1:8577 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [12-25|13:26:50.886] NAT mapped port                          proto=TCP extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:27:23.085] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [12-25|13:30:26.412] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:30:54.923] NAT mapped port                          proto=TCP extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:32:23.063] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:34:51.200] NAT mapped port                          proto=TCP extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:35:26.451] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [12-25|13:37:23.106] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:38:55.301] NAT mapped port                          proto=TCP extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:40:26.493] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [12-25|13:42:23.150] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:42:51.582] NAT mapped port                          proto=TCP extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:45:26.543] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:46:55.668] NAT mapped port                          proto=TCP extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:47:23.221] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [12-25|13:50:26.621] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:50:51.948] NAT mapped port                          proto=TCP extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:52:23.285] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|13:54:56.047] NAT mapped port                          proto=TCP extport=30304 intport=30304 interface="UPNP IGDv1-IP1"
+WARN [12-25|13:55:26.675] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [12-25|13:57:23.336] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|14:28:52.525] NAT mapped port                          proto=TCP extport=30303 intport=30303 interface="UPNP IGDv1-IP1"
+WARN [12-25|15:30:35.974] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+WARN [12-25|18:01:01.243] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|18:49:47.075] NAT mapped alternative port              proto=TCP extport=0 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [12-25|18:49:50.409] NAT mapped alternative port              proto=TCP extport=0 intport=30304 interface="UPNP IGDv1-IP1"
+INFO [12-25|22:05:07.395] NAT mapped alternative port              proto=TCP extport=0 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [12-25|22:22:06.971] NAT mapped alternative port              proto=TCP extport=0 intport=30304 interface="UPNP IGDv1-IP1"
+WARN [12-25|22:48:24.327] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|22:49:47.501] NAT mapped alternative port              proto=TCP extport=0 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [12-25|22:49:51.815] NAT mapped alternative port              proto=TCP extport=0 intport=30304 interface="UPNP IGDv1-IP1"
+WARN [12-25|22:50:20.995] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|22:51:48.470] NAT mapped alternative port              proto=TCP extport=0 intport=30303 interface="UPNP IGDv1-IP1"
+INFO [12-25|22:51:51.814] NAT mapped alternative port              proto=TCP extport=0 intport=30304 interface="UPNP IGDv1-IP1"
+INFO [12-25|22:53:24.010] HTTP server stopped                      endpoint=127.0.0.1:8575
+INFO [12-25|22:53:24.011] HTTP server stopped                      endpoint=127.0.0.1:8576
+INFO [12-25|22:53:24.011] HTTP server stopped                      endpoint=127.0.0.1:8577
+INFO [12-25|22:53:24.014] Ethereum protocol stopped
+INFO [12-25|22:53:24.016] Transaction pool stopped
+INFO [12-25|22:53:24.028] Persisting dirty state to disk           root=8028c2..ff6d3e layers=0
+INFO [12-25|22:53:24.031] Persisted dirty state to disk            size=69.00B elapsed=1.940ms
+INFO [12-25|22:53:24.035] Blockchain stopped
+WARN [12-25|22:53:24.388] Post-merge network, but no beacon client seen. Please launch one to follow the chain!
+INFO [12-25|22:53:38.579] HTTP server stopped                      endpoint=127.0.0.1:8546
+INFO [12-25|22:53:38.580] HTTP server stopped                      endpoint=127.0.0.1:8547
+INFO [12-25|22:53:38.580] HTTP server stopped                      endpoint=127.0.0.1:8548
+INFO [12-25|22:53:38.581] Ethereum protocol stopped
+INFO [12-25|22:53:38.581] Transaction pool stopped
+INFO [12-25|22:53:38.588] Persisting dirty state to disk           root=8028c2..ff6d3e layers=0
+INFO [12-25|22:53:38.588] Persisted dirty state to disk            size=69.00B elapsed="492.708µs"
+INFO [12-25|22:53:38.595] Blockchain stopped

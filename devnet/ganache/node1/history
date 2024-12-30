@@ -1,0 +1,11 @@
+eth.accounts
+var abi =[{"inputs":[],"name":"get","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"},{"inputs":[{"internalType":"uint256","name":"x","type":"uint256"}],"name":"set","outputs":[],"stateMutability":"nonpayable","type":"function"}]
+var bytecode = "0x6080604052348015600e575f5ffd5b506101298061001c5f395ff3fe6080604052348015600e575f5ffd5b50600436106030575f3560e01c806360fe47b11460345780636d4ce63c14604c575b5f5ffd5b604a60048036038101906046919060a9565b6066565b005b6052606f565b604051605d919060dc565b60405180910390f35b805f8190555050565b5f5f54905090565b5f5ffd5b5f819050919050565b608b81607b565b81146094575f5ffd5b50565b5f8135905060a3816084565b92915050565b5f6020828403121560bb5760ba6077565b5b5f60c6848285016097565b91505092915050565b60d681607b565b82525050565b5f60208201905060ed5f83018460cf565b9291505056fea264697066735822122065bd50ccb41418782a7f8fb343edda68fd6e8c20b13bcd5b3202607d113af03564736f6c634300081c0033"
+var MyContract = eth.contract(abi);
+var deployedContract = MyContract.new({from: "0x865aB81cE170eE7c7B2C43450bcf8A91dfa83D6c", data: bytecode, gas: 3000000}, function(e, contract) {if (!e) {if (contract.address) {console.log('Contract Address: ' + contract.address);} else {console.log('Contract Transaction Hash: ' + contract.transactionHash);}} else {console.error('Error deploying contract:', e.message);}});
+eth.accounts
+eth.getBalance("0xf886106d156ee3c9ed327308492770433b2d99c4")
+miner.start()
+eth.accounts
+eth.getBalance("0xf886106d156ee3c9ed327308492770433b2d99c4")
+miner.start()
